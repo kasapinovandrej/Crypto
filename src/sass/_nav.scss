@@ -1,0 +1,36 @@
+.nav {
+  &__wrap {
+    margin-bottom: 3rem;
+    background: $color4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  width: 120rem;
+  display: flex;
+
+  &__logo {
+    color: $color1;
+    text-decoration: none;
+    margin: 1rem;
+    &--h2 {
+      font-weight: 300;
+    }
+  }
+  &__linkbox {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  //   &__list {
+  //   }
+  &__pages {
+    color: $color5;
+    margin-left: 1.5rem;
+    text-decoration: none;
+  }
+}
+.active {
+  color: $color1;
+}

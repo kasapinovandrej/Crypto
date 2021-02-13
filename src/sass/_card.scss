@@ -1,0 +1,25 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  // margin-left: 10%;
+  &__image {
+    height: 25rem;
+    margin-top: 2rem;
+  }
+  &__h2 {
+    font-weight: 400;
+  }
+  &__a {
+    text-decoration: none;
+    color: $color4;
+    transition: all 0.2s;
+    &:last-of-type {
+      margin-bottom: 3rem;
+    }
+    &:hover {
+      color: $color2;
+    }
+  }
+}

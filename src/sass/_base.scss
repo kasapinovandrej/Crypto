@@ -1,0 +1,39 @@
+$color1: #fff;
+$color2: #0775ff;
+$color3: #15a0bf;
+$color4: #343a41;
+$color5: #92989d;
+
+$bp--810px: 50.63em;
+
+//@media only screen and (max-width: $bp--810px) {}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.5rem;
+  height: 100vh;
+}
+
+.hide {
+  display: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page {
+  display: flex;
+  width: 120rem;
+}
